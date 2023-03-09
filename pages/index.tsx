@@ -26,7 +26,7 @@ export default function Home() {
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={()=> setDarkMode
               (!darkMode)} className='cursor-pointer text-2xl'/></li>
-              <li className='bg-gradient-to-r from-pink-300 to-orange-200 text-white px-4 py02 rounded-md ml-8' ><a href=''>Reśume</a></li>
+              <li className='bg-gradient-to-r from-pink-300 to-orange-200 text-white px-4 py02 rounded-md ml-8' ><a target="_blank" href='https://drive.google.com/file/d/1mVbSxS1SedZ_gZvJqqMOWGPvuUCNcI7P/view'>Reśume</a></li>
             </ul>
           </nav>
           <div className='p-10 text-center'>
@@ -42,9 +42,9 @@ export default function Home() {
           <div className='text-5xl flex justify-center gap-16 py-8 mt-6 text-gray-600'>
             {/* <AiFillTwitterCircle onCl='https://twitter.com/Khyatigupta369'/> */}
 
-            <a href="https://twitter.com/Khyatigupta369"><AiFillTwitterCircle color='white'/></a>
+            <a target="_blank" href="https://twitter.com/Khyatigupta369"><AiFillTwitterCircle color='white'/></a>
             
-            <a href='https://www.linkedin.com/in/khyatigupta369/'><AiFillLinkedin color='white'/></a>
+            <a target="_blank" href='https://www.linkedin.com/in/khyatigupta369/'><AiFillLinkedin color='white'/></a>
           </div>
         </section>
         <section>
@@ -55,6 +55,7 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
+              <a href="https://github.com/khyatigupta369/Moonlit_Cinema" target="_blank" rel="noopener noreferrer">
               <Image 
               alt="" 
               src={web1} 
@@ -62,8 +63,10 @@ export default function Home() {
               width={'100%'} 
               height={'100%'} 
               responsive />
+              </a>
             </div>
             <div className='basis-1/3 flex-1'>
+              <a href="https://github.com/khyatigupta369/The-Red-Code--" target="_blank" rel="noopener noreferrer">
               <Image 
               alt="" 
               src={web2} 
@@ -71,6 +74,7 @@ export default function Home() {
               width={'100%'} 
               height={'100%'} 
               responsive />
+              </a>
             </div>
           </div>
         </section>
