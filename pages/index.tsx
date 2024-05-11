@@ -50,8 +50,8 @@ export default function Home() {
         <section>
         <div>
             <h3 className='text-3xl py-1'>Portfolio</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-100'>I have been invested in learning  <span className='text-pink-300'>Full-Stack Development</span>, Flutter Development and exploring hand-on projects on various tech-stacks!</p>
-            <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-100'>I am always inclined towards being part of a <span className='text-pink-300' >community</span> and sharing my learing</p>
+            <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-100'>I have been invested in learning  <span className='text-pink-300'>Full-Stack Development</span>, and Flutter Development and exploring hands-on projects on various tech stacks!</p>
+            <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-100'>I am always inclined towards being part of a <span className='text-pink-300' >community</span> and sharing my learnings.</p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
@@ -60,9 +60,7 @@ export default function Home() {
               alt="" 
               src={web1} 
               className="rounded-lg object-cover" 
-              width={'100%'} 
-              height={'100%'} 
-              responsive />
+              />
               </a>
             </div>
             <div className='basis-1/3 flex-1'>
@@ -71,9 +69,7 @@ export default function Home() {
               alt="" 
               src={web2} 
               className="rounded-lg object-cover" 
-              width={'100%'} 
-              height={'100%'} 
-              responsive />
+              />
               </a>
             </div>
           </div>
